@@ -1,6 +1,17 @@
-/* Least Squares
+/***************************************************************************************************
+ * Stead State Two-Dimensional Parallel Direct Navier-Stokes Least Squares Solver
+ * 
+ * Authors: Boatwright, Taylor
+ *          Breeden, Ja'Nya
+ *          Lytch, Jada
+ *          Brauss, Daniel
+ *          
+ * 
+ * Solves the Stationary Navier-Stokes equations with Trilinos Direct Solver. 
  *
- */
+ * Contains an Exact Solution for Convergence Check.
+ * 
+ **************************************************************************************************/
 
 
 #include <deal.II/base/quadrature_lib.h>        // needed for QGauss<dim> quadrature_formula and quadrature_formula_BiotSavart
