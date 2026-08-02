@@ -1,6 +1,6 @@
 # undergraduate_navier_stokes_least_squares
 
-The two codes of the repository were developed working with undergraduate students at Francis Marion University.  Each codes will require a CMakeLists.txt file.  A CMakeLists.txt file can be copied from an installed deal.II tutorial example.  The name of the target in the CMakeLists.txt file will then need to be changed to the filename of the particular code (serial or parallel one).
+The two codes of the repository were developed working with undergraduate students at Francis Marion University.  Each code requires a CMakeLists.txt file, and a CMakeLists.txt file can be copied from a deal.II tutorial example that can be found in a deal.II installation.  The name of the target in the CMakeLists.txt file will then need to be changed to the filename of the particular code (serial or parallel one).  See the ReadMe file in Downloads at https://dealii.org/ for more information on installing deal.II.
 
 ## Serial Code
 * The serial code utilizes the deal.II software library - https://dealii.org/
